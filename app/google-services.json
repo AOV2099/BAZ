@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804042980090",
+    "project_id": "exam-d9a54",
+    "storage_bucket": "exam-d9a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804042980090:android:9b29168bf337a93740a743",
+        "android_client_info": {
+          "package_name": "com.aov2099.baz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804042980090-0mvqdrhfs205oij6rp5idbo9ro6i19mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZZNCkcSGjMu2vE1YbRnfOevvYZ7pTps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804042980090-0mvqdrhfs205oij6rp5idbo9ro6i19mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

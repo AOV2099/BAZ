@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical"
+    tools:context=".fragments.ImageFragment">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="28dp"
+        android:background="@color/primary_light"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnSelectImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/primary_light"
+        android:text="Seleccionar imagen" />
+
+    <Button
+        android:id="@+id/btnUploadImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/primary_light"
+        android:text="subir imagen a  firebase" />
+</LinearLayout>
